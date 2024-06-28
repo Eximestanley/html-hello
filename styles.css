@@ -1,0 +1,73 @@
+body {
+	background: black;
+	margin: 0;
+}
+
+header{
+	background: white;
+	display:flex;
+}
+div.post {
+	background: white;
+}
+div.post img{
+	width:100%;
+}
+
+div.post .posta div: First-child{
+	display: inline-block;
+	width:100%;
+	background: green;
+}
+
+div.post h2, div.posta p{
+	padding: 10px;
+	display: flex;
+}
+
+div.container{
+	width: 700px;
+	margin: auto;
+	
+}
+span{
+	display: auto;
+	width:100%;
+	
+}
+	
+	.containe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0px solid #000;
+    padding: 10px;
+    height: 40px; /* Adjust as needed */
+	width:1000px;
+}
+
+.middle {
+    text-align: left;
+    flex: 1;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 0px solid #000;
+}
+
+.left-icons, .right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.left-icons i {
+    margin-right: 10px; /* Add some space between the left icons */
+}
+
+.right-icons i {
+    margin-left: 10px; /* Add some space between the right icons and the edge of the container */
+}
